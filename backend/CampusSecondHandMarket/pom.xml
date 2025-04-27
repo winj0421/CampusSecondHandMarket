@@ -93,6 +93,23 @@
 					</excludes>
 				</configuration>
 			</plugin>
+			<plugin>
+				<groupId>org.mybatis.generator</groupId>
+				<artifactId>mybatis-generator-maven-plugin</artifactId>
+				<version>1.4.1</version> <!-- 请根据需要选择版本 -->
+				<configuration>
+					<configurationFile>src/main/resources/generatorConfig.xml</configurationFile>
+					<overwrite>true</overwrite>
+					<verbose>true</verbose>
+				</configuration>
+				<dependencies>
+					<dependency>
+						<groupId>mysql</groupId>
+						<artifactId>mysql-connector-j</artifactId>
+						<version>8.0.33</version> <!-- 请根据需要选择版本 -->
+					</dependency>
+				</dependencies>
+			</plugin>
 		</plugins>
 	</build>
 

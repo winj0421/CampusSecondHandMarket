@@ -4,9 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="056b755b-d228-438e-a8ca-7d2dc9d4f532" name="更改" comment="test">
+    <list default="true" id="056b755b-d228-438e-a8ca-7d2dc9d4f532" name="更改" comment="test2">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/JPA_1_0_JPA_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Campus-TwoHandMarket.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Campus-TwoHandMarket.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/CampusSecondHandMarket/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/entity/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,23 +50,29 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JavaScript 调试.index.html.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.CampusSecondHandMarketApplication.executor": "Run",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/IDEA/CampusSecondHandMarket",
+    "last_opened_file_path": "D:/IDEA/CampusSecondHandMarket/backend/CampusSecondHandMarket/src/main/java/entity",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "库",
+    "project.structure.last.edited": "项目",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "settings.editor.selected.configurable": "preferences.language.and.region",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -68,6 +82,16 @@
     ]
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="CampusSecondHandMarketApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="CampusSecondHandMarket" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.campussecondhandmarket.CampusSecondHandMarketApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -86,7 +110,10 @@
       <updated>1745490548369</updated>
       <workItem from="1745490549483" duration="788000" />
       <workItem from="1745665226109" duration="4051000" />
-      <workItem from="1745719016008" duration="259000" />
+      <workItem from="1745719016008" duration="1638000" />
+      <workItem from="1745721109841" duration="1503000" />
+      <workItem from="1745722637038" duration="1242000" />
+      <workItem from="1745723899712" duration="2425000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -112,7 +139,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745666410445</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="test2">
+      <option name="closed" value="true" />
+      <created>1745719524482</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1745719524482</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +156,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="test2" />
+    <option name="LAST_COMMIT_MESSAGE" value="test2" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
