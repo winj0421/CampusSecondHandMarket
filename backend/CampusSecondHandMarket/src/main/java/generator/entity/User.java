@@ -66,6 +66,11 @@ public class User {
     private String avatar;
 
     /**
+     * 商家营业执照（仅商家用户填写）
+     */
+    private String business_license;
+
+    /**
      * 角色(0-普通用户 1-商家 2-管理员)
      */
     private Integer role;
