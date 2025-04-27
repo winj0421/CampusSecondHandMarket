@@ -4,17 +4,90 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="056b755b-d228-438e-a8ca-7d2dc9d4f532" name="更改" comment="test2">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/JPA_1_0_JPA_1_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Campus-TwoHandMarket.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Campus-TwoHandMarket.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="056b755b-d228-438e-a8ca-7d2dc9d4f532" name="更改" comment="添加实体类">
+      <change afterPath="$PROJECT_DIR$/.idea/mybatisx/templates.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/generator/entity/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/generator/entity/Coupon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/generator/entity/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/generator/entity/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/generator/entity/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/generator/entity/ProductReview.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/generator/entity/ShoppingCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/generator/entity/Transaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/generator/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/generator/entity/UserCoupon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/generator/entity/UserPoints.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/generator/entity/Wallet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/generator/mapper/CategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/generator/mapper/CouponMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/generator/mapper/OrderItemMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/generator/mapper/OrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/generator/mapper/ProductMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/generator/mapper/ProductReviewMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/generator/mapper/ShoppingCartMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/generator/mapper/TransactionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/generator/mapper/UserCouponMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/generator/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/generator/mapper/UserPointsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/generator/mapper/WalletMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/generator/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/generator/service/CouponService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/generator/service/OrderItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/generator/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/generator/service/ProductReviewService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/generator/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/generator/service/ShoppingCartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/generator/service/TransactionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/generator/service/UserCouponService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/generator/service/UserPointsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/generator/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/generator/service/WalletService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/generator/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/generator/service/impl/CouponServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/generator/service/impl/OrderItemServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/generator/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/generator/service/impl/ProductReviewServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/generator/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/generator/service/impl/ShoppingCartServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/generator/service/impl/TransactionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/generator/service/impl/UserCouponServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/generator/service/impl/UserPointsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/generator/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/generator/service/impl/WalletServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/resources/generator/mapper/CategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/resources/generator/mapper/CouponMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/resources/generator/mapper/OrderItemMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/resources/generator/mapper/OrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/resources/generator/mapper/ProductMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/resources/generator/mapper/ProductReviewMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/resources/generator/mapper/ShoppingCartMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/resources/generator/mapper/TransactionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/resources/generator/mapper/UserCouponMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/resources/generator/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/resources/generator/mapper/UserPointsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/resources/generator/mapper/WalletMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/74c7af12-72fe-45a2-bc17-1de41484eecf.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/74c7af12-72fe-45a2-bc17-1de41484eecf.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/CampusSecondHandMarket/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/entity/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/entity/Category.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/entity/Coupon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/entity/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/entity/OrderItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/entity/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/entity/ProductReview.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/entity/ShoppingCart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/entity/Transaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/entity/UserCoupon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/entity/UserPoints.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/entity/Wallet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/mapper/ProductMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/mapper/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/service/ProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/service/impl/ProductServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/CampusSecondHandMarket/src/main/java/service/impl/UserServiceImpl.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +111,14 @@
 }</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -63,16 +144,16 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/IDEA/CampusSecondHandMarket/backend/CampusSecondHandMarket/src/main/java/entity",
+    "last_opened_file_path": "D:/IDEA/twohand",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "项目",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.language.and.region",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -113,7 +194,9 @@
       <workItem from="1745719016008" duration="1638000" />
       <workItem from="1745721109841" duration="1503000" />
       <workItem from="1745722637038" duration="1242000" />
-      <workItem from="1745723899712" duration="2425000" />
+      <workItem from="1745723899712" duration="3935000" />
+      <workItem from="1745727867470" duration="2855000" />
+      <workItem from="1745734347019" duration="2146000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -147,7 +230,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745719524482</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="添加实体类">
+      <option name="closed" value="true" />
+      <created>1745726452368</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1745726452368</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,7 +248,8 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="test" />
     <MESSAGE value="test2" />
-    <option name="LAST_COMMIT_MESSAGE" value="test2" />
+    <MESSAGE value="添加实体类" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加实体类" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
