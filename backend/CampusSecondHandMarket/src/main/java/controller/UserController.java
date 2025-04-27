@@ -1,7 +1,7 @@
 package controller;
 
-import entity.User;
-import service.UserService;
+import generator.entity.User;
+import generator.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

@@ -1,7 +1,7 @@
 package controller;
 
-import entity.Product;
-import service.ProductService;
+import generator.entity.Product;
+import generator.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
